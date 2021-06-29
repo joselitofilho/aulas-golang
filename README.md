@@ -37,6 +37,40 @@ Para instalar e configurar siga os passos que estão descritos na documentação
 
 Para facilitar o gerenciamento dos containers que vamos criar, você pode instalar um plugin no VSCode para utilizar algumas funções do Docker na própria IDE. Clique [aqui](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) para instalar.
 
+### Setup do ambiente de desenvolvimento
+
+Você terá duas opções para fazer a instalação do ambiente de desenvolvimento.
+1. Instalando todo o ambiente do GoLang em sua máquina;
+2. Utilizando a imagem Docker de GoLang.
+
+Para instalar todo o ambiente GoLang siga os passos que estão descritos na documentação oficial clicando [aqui](https://golang.org/dl/). Mas se você preferir utilizar o container Docker, siga o passo-a-passo a seguir.
+
+_(usando docker)_
+
+#### Build
+
+Windows (PowerShell):
+```bash
+$ docker build -t go-dev --build-arg GO_VERSION=1.16.5 .
+```
+
+Linux ou MacOS:
+```bash
+$ docker build -t go-dev --build-arg GO_VERSION=1.16.5 .
+```
+
+#### Run
+
+Windows (PowerShell):
+```bash
+$ docker run -v $pwd\:/src -w /src --label com.docker.compose.project=go-dev -itd --name $(Split-Path -Path $pwd -Leaf) go-dev
+```
+
+Linux ou MacOS:
+```bash
+$ docker run -v `pwd`:/src -w /src --label com.docker.compose.project=go-dev -itd --name ${PWD##/*} go-dev
+```
+
 ## Estrutura do curso
 
 ### Aula 1: Introdução e fundamentos da linguagem
