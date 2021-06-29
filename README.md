@@ -19,7 +19,7 @@ Neste curso, nós vamos aprender mais sobre a Linguagem Go. Ao longo do curso, s
 
 ## Antes de começar...
 
-A IDE que vamos utilizar será o Visual Studio Code - [VSCode](https://code.visualstudio.com/)). Mas sinta-se a vontade para utilizar a que você estiver mais acostumado.
+Instale a IDE Visual Studio Code - [VSCode](https://code.visualstudio.com/) e o [Docker](https://www.docker.com/). Mas sinta-se a vontade para utilizar as ferrametas que você estiver mais acostumado.
 
 ### Instale o VSCode
 
