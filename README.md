@@ -68,7 +68,7 @@ $ docker run -v $pwd\:/src -w /src --label com.docker.compose.project=go-dev -it
 
 Linux ou MacOS:
 ```bash
-$ docker run -v `pwd`:/src -w /src --label com.docker.compose.project=go-dev -itd --name ${PWD##/*} go-dev
+$ docker run -v `pwd`:/src -w /src --label com.docker.compose.project=go-dev -itd --name ${PWD##*/} go-dev
 ```
 
 ## Estrutura do curso
