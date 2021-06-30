@@ -33,8 +33,5 @@ RUN apt-get update \
 
 WORKDIR /src
 
-# Get internal dependecies
-RUN git config --global url."https://${HP_GHE_TOKEN}:x-oauth-basic@github.azc.ext.hp.com/".insteadOf "https://github.azc.ext.hp.com/"
-
 # Revert workaround at top layer.
 ENV DEBIAN_FRONTEND=dialog
