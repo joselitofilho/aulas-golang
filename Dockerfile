@@ -1,10 +1,6 @@
 ARG GO_VERSION=1.16.5
 FROM golang:${GO_VERSION}
 
-ARG HP_GHE_TOKEN
-RUN if [ -z ${HP_GHE_TOKEN} ]; then echo "ERROR: You need pass a 'HP_GHE_TOKEN' as argument of 'docker build' command"; exit 1; fi
-ENV GOPRIVATE=github.azc.ext.hp.com
-
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
     && apt-get -y install --no-install-recommends apt-utils 2>&1
