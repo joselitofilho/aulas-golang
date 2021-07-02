@@ -35,7 +35,9 @@ Para instalar e configurar siga os passos que estão descritos na documentação
 
 ### Instale o plugin para o Docker
 
-Para facilitar o gerenciamento dos containers que vamos criar, você pode instalar um plugin no VSCode para utilizar algumas funções do Docker na própria IDE. Clique [aqui](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) para instalar.
+Para facilitar o gerenciamento dos containers que vamos criar, você pode instalar um plugin no VSCode para utilizar algumas funções do Docker na própria IDE. 
+- Clique [aqui](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) para instalar o plugin para o Docker.
+- Clique [aqui](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) para instalar o plugin para o remote-containers.
 
 ### Setup do ambiente de desenvolvimento
 
