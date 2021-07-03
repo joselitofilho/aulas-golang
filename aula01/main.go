@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 var name string
 
@@ -13,7 +16,8 @@ func main() {
 	} else {
 		var result int = 1
 		for i := 1; i <= num; i++ {
-			result = result * i
+			result *= i
+
 		}
 		fmt.Println(result)
 	}
@@ -45,8 +49,8 @@ func main() {
 	}
 
 	// switch
-	expression := 10
-	switch expression {
+	value := 10
+	switch value {
 	case 1:
 		fmt.Println(1)
 	case 2:
@@ -58,5 +62,15 @@ func main() {
 		fmt.Println(10)
 	default:
 		fmt.Println("default")
+	}
+
+	t := time.Now()
+	switch {
+	case t.Hour() < 12:
+		fmt.Println("manhã")
+	case t.Hour() < 18:
+		fmt.Println("tarde")
+	default:
+		fmt.Println("noite")
 	}
 }
