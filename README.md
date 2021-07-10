@@ -116,4 +116,4 @@ $ docker run -v `pwd`:/src -w /src --label com.docker.compose.project=go-dev -it
 - Multiplexador
 
 ### Aula 7: Criar um serviço / API em Go
-- Acesso o repositório [golang-echo-apigithub](https://github.com/joselitofilho/golang-echo-apigithub) com uma implementação de API feita em Go.
+- Acesse o repositório [golang-echo-apigithub](https://github.com/joselitofilho/golang-echo-apigithub) para ver um exemplo de implementação de uma API feita em Go.
