@@ -117,3 +117,11 @@ $ docker run -v `pwd`:/src -w /src --label com.docker.compose.project=go-dev -it
 
 ### Aula 7: Criar um serviço / API em Go
 - Acesse o repositório [golang-echo-apigithub](https://github.com/joselitofilho/golang-echo-apigithub) para ver um exemplo de implementação de uma API feita em Go.
+
+## Principais links
+- [Effective Go](https://golang.org/doc/effective_go)
+- [Playground Go](https://play.golang.org/)
+- [Standard Go Project Layout](https://github.com/golang-standards/project-layout)
+- [Echo Web Framework](https://echo.labstack.com/)
+- [GitHub API](https://docs.github.com/en/rest)
+- [Gorm Library](https://gorm.io/)
