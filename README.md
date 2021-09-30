@@ -76,6 +76,7 @@ $ docker run -v `pwd`:/src -w /src --label com.docker.compose.project=go-dev -it
 ## Estrutura do curso
 
 ### [Aula 1](aula01): Introdução e fundamentos da linguagem
+Link da [video aula](https://drive.google.com/file/d/1b52kKHzRXfG7FqZZOdJmWvxU5-d6yKck/view?usp=sharing)
 - Apresentações
 - Configuração do ambiente (VSCode + Docker)
 - Hello World
@@ -84,6 +85,7 @@ $ docker run -v `pwd`:/src -w /src --label com.docker.compose.project=go-dev -it
 - Estrutura de controle (if / else, switch), estrutura de repetição (for, range)
 
 ### [Aula 2](aula02): Ponteiros e estruturas
+[Link da video aula](https://drive.google.com/file/d/1vUf2pfGi416pb8tQ0JMXjxpIj02w4Vo0/view?usp=sharing)
 - Ponteiros
 - Struct
 - Interface
@@ -92,6 +94,7 @@ $ docker run -v `pwd`:/src -w /src --label com.docker.compose.project=go-dev -it
 - Recover
 
 ### [Aula 3](aula03): Funções
+[Link da video aula](https://drive.google.com/file/d/11936Cf_Rr2xjSf3H6K2VNYF_QDEkdqfd/view?usp=sharing)
 - Retorno Nomeado
 - Variádicas
 - Anônimas
@@ -100,10 +103,12 @@ $ docker run -v `pwd`:/src -w /src --label com.docker.compose.project=go-dev -it
 - `func init()` / `func main()`
 
 ### [Aula 4](aula04): Go (composição) x OO (herança)
+[Link da video aula](https://drive.google.com/file/d/1UeicM1GrvwIvov6PEgfdPJGyL-jMq7OB/view?usp=sharing)
 - Criação de pacotes
 - Instalação de dependências de terceiros (go get, go install, go mod, go vendor)
 
 ### [Aula 5](aula05): Concorrência (Goroutines e Channels)
+[Link da video aula 5 + 6](https://drive.google.com/file/d/1dbuYzb03xfwz7J6b8dD7H2pKM5JRg4s5/view?usp=sharing)
 - Routines
 - Waitgroup
 - Channels
@@ -111,11 +116,13 @@ $ docker run -v `pwd`:/src -w /src --label com.docker.compose.project=go-dev -it
 - Select
 
 ### [Aula 6](aula06): Padrões de Concorrência
+[Link da video aula 5 + 6](https://drive.google.com/file/d/1dbuYzb03xfwz7J6b8dD7H2pKM5JRg4s5/view?usp=sharing)
 - Worker Pools
 - Generator
 - Multiplexador
 
 ### [Aula 7](aula07): Criar um serviço / API em Go
+[Link da video aula 7](https://drive.google.com/file/d/19826yLS-J1ZseZPL-MCTulah6fcR_FPj/view?usp=sharing)
 - Acesse o repositório [golang-echo-apigithub](https://github.com/joselitofilho/golang-echo-apigithub) para ver um exemplo de implementação de uma API feita em Go.
 
 ## Principais links
