@@ -75,7 +75,7 @@ $ docker run -v `pwd`:/src -w /src --label com.docker.compose.project=go-dev -it
 
 ## Estrutura do curso
 
-### Aula 1: Introdução e fundamentos da linguagem
+### [Aula 1](aula01): Introdução e fundamentos da linguagem
 - Apresentações
 - Configuração do ambiente (VSCode + Docker)
 - Hello World
@@ -83,7 +83,7 @@ $ docker run -v `pwd`:/src -w /src --label com.docker.compose.project=go-dev -it
 - Array, Map e Slice
 - Estrutura de controle (if / else, switch), estrutura de repetição (for, range)
 
-### Aula 2: Ponteiros e estruturas
+### [Aula 2](aula02): Ponteiros e estruturas
 - Ponteiros
 - Struct
 - Interface
@@ -91,7 +91,7 @@ $ docker run -v `pwd`:/src -w /src --label com.docker.compose.project=go-dev -it
 - Panic
 - Recover
 
-### Aula 3: Funções
+### [Aula 3](aula03): Funções
 - Retorno Nomeado
 - Variádicas
 - Anônimas
@@ -99,23 +99,23 @@ $ docker run -v `pwd`:/src -w /src --label com.docker.compose.project=go-dev -it
 - Closures
 - `func init()` / `func main()`
 
-### Aula 4: Go (composição) x OO (herança)
+### [Aula 4](aula04): Go (composição) x OO (herança)
 - Criação de pacotes
 - Instalação de dependências de terceiros (go get, go install, go mod, go vendor)
 
-### Aula 5: Concorrência (Goroutines e Channels)
+### [Aula 5](aula05): Concorrência (Goroutines e Channels)
 - Routines
 - Waitgroup
 - Channels
 - Channels com Buffer
 - Select
 
-### Aula 6: Padrões de Concorrência
+### [Aula 6](aula06): Padrões de Concorrência
 - Worker Pools
 - Generator
 - Multiplexador
 
-### Aula 7: Criar um serviço / API em Go
+### [Aula 7](aula07): Criar um serviço / API em Go
 - Acesse o repositório [golang-echo-apigithub](https://github.com/joselitofilho/golang-echo-apigithub) para ver um exemplo de implementação de uma API feita em Go.
 
 ## Principais links
